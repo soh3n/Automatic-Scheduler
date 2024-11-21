@@ -1,8 +1,0 @@
-From:	KIM::PAAUW        "I swear, it was that way when I found it." 11-MAR-1992 10:31:00.19
-To:	@SYS$MAIL:HARDWARE
-CC:	
-Subj:	Concurrent Logic FPGA meeting Thur., Mar. 19 @ 3:00
-
-
-	Bill Mullins will be in @ 3:00 on Thursday, March 19 to peddle the Concurrent 
-Logic family of FPGA's.  It will probably be in the Enginering Conf. room.
