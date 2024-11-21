@@ -1,0 +1,13 @@
+From:	KIM::COPPERMAN    26-FEB-1992 12:31:02.71
+To:	@SYS$MAIL:ENGINEER.DIS
+CC:	
+Subj:	Review of Macintosh Universe CAD System Functional Design
+
+
+On Friday, February 28, at 2:00, in the Central Conference Room, there 
+will be a meeting to discuss Alan Gray's functional design of the 
+"Macintosh Universe CAD System."  This is a follow-up meeting which was
+preceded by one held on Jan. 22 where we discussed the requirements.
+Lois Turner has design document copies which are available upon request. 
+
+					Norm
