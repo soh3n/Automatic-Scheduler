@@ -62,10 +62,14 @@ def evaluate_label_single(pred, true, weights=None):
             results["Field"][field] = 1 if pred[field] == true[field] else 0
         elif field in ["Start", "End"]:
             # Time Period
-            time_correct = is_time_period_correct(
-                pred["Start"], pred["End"], true["Start"], true["End"]
-            )
-            results["Field"]["Time Period"] = 1 if time_correct else 0
+            # If not time sensitive, this will automatically get 1
+            if results["Field"]["Time_Sensitive"] == 0:
+                results["Field"]["Time Period"] = 1
+            else:
+                time_correct = is_time_period_correct(
+                    pred["Start"], pred["End"], true["Start"], true["End"]
+                )
+                results["Field"]["Time Period"] = 1 if time_correct else 0
         elif field == "Priority_Level":
             # Priority Level (Relaxed Match)
             priority_map = {"Low": 1, "Medium": 2, "High": 3, "Urgent": 4}
