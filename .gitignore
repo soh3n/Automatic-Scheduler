@@ -1,3 +1,4 @@
 # Ignore:
 
 .env
+.DS_Store
