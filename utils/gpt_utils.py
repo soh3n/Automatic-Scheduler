@@ -1,5 +1,5 @@
 
-def gpt_completion(system_prompt, task_prompt, temperature=0.7, model="gpt-4o-mini"):
+def gpt_completion(client, system_prompt, task_prompt, temperature=0.7, model="gpt-4o-mini"):
     '''
     prompt: 
     model: 

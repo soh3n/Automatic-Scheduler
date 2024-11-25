@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import random
 import json
 from datetime import datetime, timedelta
+from utils.gpt_utils import gpt_completion
 
 # # Load the environment variables from the .env file
 # # In this .env, it contains openai's API Key.
@@ -210,21 +211,29 @@ def generate_prompt(label):
 
     return system_prompt, task_prompt
 
+# def label2email(label, client, temperature=0.7, model="gpt-4o-mini"):
+#     '''
+#     prompt: 
+#     model: 
+#     '''
+#     sys_prompt, prompt = generate_prompt(label)
+#     messages = [
+#         {"role": "system", "content": sys_prompt},
+#         {"role": "user", "content": prompt}
+#         ]
+#     response = client.chat.completions.create(
+#         model=model,
+#         messages=messages,
+#         temperature=temperature,
+#     )
+#     # 调用 OpenAI 的 ChatCompletion 接口
+#     # return response.choices[0].message["content"]
+#     return response.choices[0].message.content
+
 def label2email(label, client, temperature=0.7, model="gpt-4o-mini"):
     '''
     prompt: 
     model: 
     '''
     sys_prompt, prompt = generate_prompt(label)
-    messages = [
-        {"role": "system", "content": sys_prompt},
-        {"role": "user", "content": prompt}
-        ]
-    response = client.chat.completions.create(
-        model=model,
-        messages=messages,
-        temperature=temperature,
-    )
-    # 调用 OpenAI 的 ChatCompletion 接口
-    # return response.choices[0].message["content"]
-    return response.choices[0].message.content
+    return gpt_completion(client, sys_prompt, prompt, temperature, model)

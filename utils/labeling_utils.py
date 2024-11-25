@@ -1,5 +1,7 @@
 import re
 from datetime import datetime
+import json
+from utils.gpt_utils import gpt_completion
 
 def re_analyze_email(email: str) -> dict:
     # Analyze the email and generate labels based on its content.
@@ -132,3 +134,83 @@ def re_analyze_email(email: str) -> dict:
 
     return label
 
+def generate_examples(example_list):
+    assert len(example_list) >= 4
+    example = f"""
+    Email: {example_list[0]["content"]}
+    Label: {example_list[0]["label"]}
+
+    Email: {example_list[1]["content"]}
+    Label: {example_list[1]["label"]}
+
+    Email: {example_list[2]["content"]}
+    Label: {example_list[2]["label"]}
+
+    Email: {example_list[3]["content"]}
+    Label: {example_list[3]["label"]}
+
+    Email: {example_list[4]["content"]}
+    Label: {example_list[4]["label"]}
+    """
+    return example
+
+system_prompt = """You are a personal secretary. You are an expert of analyzing emails and summarize
+them into required form.
+"""
+
+task_prompt = """Your task is to label received emails into a template:
+{
+    "Spam": "Yes" / "No",
+    "Subject": ,
+    "Sender": ,
+    "send_date": ,
+    "Time_Sensitive": "Yes" / "No",
+    "Start": ,
+    "End": ,
+    "Type": "Event" / "Reminder" / "N/A",
+    "Category": "Work" / "Study" / "Leisure",
+    "Format": "Online" / "In-person",
+    "Location": ,
+    "Action_Required": "Yes" / "No",
+    "Priority_Level": "Low" / "Medium" / "High" / "Urgent"
+}
+For the key-value pair in the dict, every key is necessary, the value is required field.
+Use standard time format like '1992-01-10 15:30' for time or '1992-01-10' for date.
+"""
+
+task_prompt_eg = f"""Your task is to analyze received emails and label them into the following template:
+{{
+    "Spam": "Yes" / "No",
+    "Subject": "string",
+    "Sender": "string",
+    "send_date": "YYYY-MM-DD",
+    "Time_Sensitive": "Yes" / "No",
+    "Start": "YYYY-MM-DD HH:MM",
+    "End": "YYYY-MM-DD HH:MM",
+    "Type": "Event" / "Reminder" / "N/A",
+    "Category": "Work" / "Study" / "Leisure",
+    "Format": "Online" / "In-person",
+    "Location": "string",
+    "Action_Required": "Yes" / "No",
+    "Priority_Level": "Low" / "Medium" / "High" / "Urgent"
+}}
+
+### Instructions:
+1. Every key in the template is required, and the value for each key must be provided.
+2. Use the following formats:
+   - **Time**: 'YYYY-MM-DD HH:MM' (e.g., '1992-01-10 15:30')
+   - **Date**: 'YYYY-MM-DD' (e.g., '1992-01-10')
+3. Analyze the email content carefully to extract the appropriate values for each field.
+4. Email with only a start stamp is more likely a reminder; with both start and end stamp is an event
+
+Here are some examples for reference:
+
+"""
+
+def gpt_label(client, email, temperature=0.7, model="gpt-4o-mini"):
+    task_prompt_ = task_prompt_eg + f"Email: {email}; Label:"
+    return gpt_completion(client, system_prompt, task_prompt_, temperature, model)
+
+def gpt_label_eg(client, email, example_list, temperature=0.7, model="gpt-4o-mini"):
+    task_prompt_ = task_prompt_eg  + generate_examples(example_list) + f"Email: {email}; Label:"
+    return gpt_completion(client, system_prompt, task_prompt_, temperature, model)
