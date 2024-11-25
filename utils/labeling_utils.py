@@ -137,6 +137,8 @@ def re_analyze_email(email: str) -> dict:
 def generate_examples(example_list):
     assert len(example_list) >= 4
     example = f"""
+    Here are some examples:
+
     Email: {example_list[0]["content"]}
     Label: {example_list[0]["label"]}
 
@@ -203,14 +205,16 @@ task_prompt_eg = f"""Your task is to analyze received emails and label them into
 3. Analyze the email content carefully to extract the appropriate values for each field.
 4. Email with only a start stamp is more likely a reminder; with both start and end stamp is an event
 
-Here are some examples for reference:
-
 """
 
 def gpt_label(client, email, temperature=0.7, model="gpt-4o-mini"):
-    task_prompt_ = task_prompt_eg + f"Email: {email}; Label:"
+    task_prompt_ = task_prompt + f"Email: {email}; Label:"
     return gpt_completion(client, system_prompt, task_prompt_, temperature, model)
 
 def gpt_label_eg(client, email, example_list, temperature=0.7, model="gpt-4o-mini"):
     task_prompt_ = task_prompt_eg  + generate_examples(example_list) + f"Email: {email}; Label:"
+    return gpt_completion(client, system_prompt, task_prompt_, temperature, model)
+
+def gpt_label_ft(client, email, temperature=0.7, model="ft:gpt-4o-mini-2024-07-18:personal:ft-schedular:AXN6Qt3B"):
+    task_prompt_ = task_prompt_eg + f"Email: {email}; Label:"
     return gpt_completion(client, system_prompt, task_prompt_, temperature, model)
