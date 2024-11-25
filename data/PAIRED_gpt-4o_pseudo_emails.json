@@ -1,0 +1,59 @@
+[
+    {
+        "path": "./pseudo_emails/gpt-4o_1.txt",
+        "content": "Email:  \nFrom: Mia O\u2019Connor  \nSubject: Briefing Session Changed to 9:30 This Morning  \n\nDear Team,\n\nI hope this message finds you well. I need to inform you that our briefing session originally planned for today has a new start time. We'll now be gathering online via Microsoft Teams, starting at 9:30 AM and ending at 10:00 AM, November 11, 2024.\n\nTo ensure a smooth start, please confirm your attendance and let me know if there are any issues or questions regarding accessing the session.\n\nYour cooperation and prompt attention to this schedule change are greatly appreciated.\n\nBest regards,  \nMia O\u2019Connor",
+        "label": {
+            "Spam": "No",
+            "Subject": "Briefint session changed to 9:30 this morning",
+            "Sender": "Mia O'Connor",
+            "send_date": "2024-11-11",
+            "Time_Sensitive": "Yes",
+            "Start": "2024-11-11 09:30",
+            "End": "2024-11-11 10:00",
+            "Type": "Event",
+            "Category": "Work",
+            "Format": "Online",
+            "Location": "Microsoft Teams",
+            "Action_Required": "Yes",
+            "Priority_Level": "Urgent"
+        }
+    },
+    {
+        "path": "./pseudo_emails/gpt-4o_2.txt",
+        "content": "From: Tatiana  \nDate: November 5, 2024  \nSubject: CS 6320: Final Exam Time Confirmed for November 15th  \n\nHi Everyone,\n\nI hope you're all doing well as we approach finals. I wanted to let you know that the time for our CS 6320 final exam has been set for Friday, November 15, 2024, and will start promptly at 2:00 PM. We will meet in-person at room ECSS 2.103 for the exam.\n\nPlease make sure to arrive a little early to settle down and have your student ID ready for verification. If you have any questions or concerns regarding the exam or the location, feel free to reach out to me ahead of time.\n\nLooking forward to seeing everyone there and good luck with your preparations!\n\nBest regards,\nTatiana",
+        "label": {
+            "Spam": "No",
+            "Subject": "CS 6320: Final Exam time is fixed on 15th",
+            "Sender": "Tatiana",
+            "send_date": "2024-11-04",
+            "Time_Sensitive": "Yes",
+            "Start": "2024-11-15 14:00",
+            "End": "",
+            "Type": "Reminder",
+            "Category": "Study",
+            "Format": "In-person",
+            "Location": "ECSS 2.103",
+            "Action_Required": "Yes",
+            "Priority_Level": "High"
+        }
+    },
+    {
+        "path": "./pseudo_emails/gpt-4o_3.txt",
+        "content": "From: Thabo Mbeki  \nDate: 2024-11-20  \nSubject: Join Us for a Delightful Lunch Party with Thabo Today!  \n\nHello Everyone,\n\nI hope you're all having a wonderful day! I\u2019m excited to extend a warm invitation to a lunch party I\u2019m hosting today, November 20th, from 11:15 AM to 1:00 PM. We'll be gathering in the Student Hall for some great food, good company, and enjoyable conversations.\n\nThis will be a relaxed and informal get-together, and it\u2019s a fantastic opportunity to unwind and enjoy some time with friends and colleagues. No need to RSVP\u2014just come as you are and bring along your cheerful spirit.\n\nLooking forward to seeing many friendly faces there!\n\nBest,\nThabo Mbeki",
+        "label": {
+            "Spam": "No",
+            "Subject": "Join us for a delightful lunch party with Thabo today!",
+            "Sender": "Thabo Mbeki",
+            "send_date": "2024-11-20",
+            "Time_Sensitive": "Yes",
+            "Start": "2024-11-20 11:15",
+            "End": "2024-11-20 13:00",
+            "Type": "Event",
+            "Category": "Leisure",
+            "Format": "In-person",
+            "Location": "Student Hall",
+            "Action_Required": "No",
+            "Priority_Level": "Low"
+        }
+    }
+]

@@ -24,3 +24,6 @@ What we hope to do can be sketched as:
 ## Data
 - From open dataset
 - Pseudo email with mannual labels
+
+"./data/PAIRED_test.json"
+"./data/PAIRED_train.json"
