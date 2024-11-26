@@ -2,27 +2,62 @@ import json
 from datetime import datetime
 from sklearn.metrics import accuracy_score, f1_score, recall_score
 
+# def is_time_period_correct(pred_start, pred_end, true_start, true_end):
+#     """
+#     Strictly compare predicted and true time periods.
+
+#     Parameters:
+#         pred_start (str): Predicted start time as a string (e.g., "2024-11-20 09:17").
+#         pred_end (str): Predicted end time as a string (e.g., "2024-11-20 11:25").
+#         true_start (str): True start time as a string.
+#         true_end (str): True end time as a string.
+
+#     Returns:
+#         bool: True if both start and end times match exactly, False otherwise.
+#     """
+#     # Convert strings to datetime objects
+#     pred_start_dt = datetime.strptime(pred_start, "%Y-%m-%d %H:%M")
+#     pred_end_dt = datetime.strptime(pred_end, "%Y-%m-%d %H:%M")
+#     true_start_dt = datetime.strptime(true_start, "%Y-%m-%d %H:%M")
+#     true_end_dt = datetime.strptime(true_end, "%Y-%m-%d %H:%M")
+
+#     # Check for exact match
+#     return pred_start_dt == true_start_dt and pred_end_dt == true_end_dt
+
 def is_time_period_correct(pred_start, pred_end, true_start, true_end):
     """
-    Strictly compare predicted and true time periods.
+    Strictly compare predicted and true time periods, accounting for missing End times.
 
     Parameters:
         pred_start (str): Predicted start time as a string (e.g., "2024-11-20 09:17").
-        pred_end (str): Predicted end time as a string (e.g., "2024-11-20 11:25").
+        pred_end (str or None): Predicted end time as a string or None (e.g., "2024-11-20 11:25").
         true_start (str): True start time as a string.
-        true_end (str): True end time as a string.
+        true_end (str or None): True end time as a string or None.
 
     Returns:
-        bool: True if both start and end times match exactly, False otherwise.
+        bool: True if time periods match based on available data, False otherwise.
     """
-    # Convert strings to datetime objects
-    pred_start_dt = datetime.strptime(pred_start, "%Y-%m-%d %H:%M")
-    pred_end_dt = datetime.strptime(pred_end, "%Y-%m-%d %H:%M")
-    true_start_dt = datetime.strptime(true_start, "%Y-%m-%d %H:%M")
-    true_end_dt = datetime.strptime(true_end, "%Y-%m-%d %H:%M")
+    try:
+        # Convert start times to datetime objects
+        pred_start_dt = datetime.strptime(pred_start, "%Y-%m-%d %H:%M")
+        true_start_dt = datetime.strptime(true_start, "%Y-%m-%d %H:%M")
 
-    # Check for exact match
-    return pred_start_dt == true_start_dt and pred_end_dt == true_end_dt
+        # If both End times are present, compare them
+        if pred_end and true_end:
+            pred_end_dt = datetime.strptime(pred_end, "%Y-%m-%d %H:%M")
+            true_end_dt = datetime.strptime(true_end, "%Y-%m-%d %H:%M")
+            return pred_start_dt == true_start_dt and pred_end_dt == true_end_dt
+
+        # If only Start times are present, match based on Start
+        if not pred_end and not true_end:
+            return pred_start_dt == true_start_dt
+
+        # Mismatched cases (one End is missing)
+        return False
+
+    except ValueError:
+        # Handle invalid datetime formats
+        return False
 
 def evaluate_label_single(pred, true, weights=None):
     """
@@ -48,8 +83,19 @@ def evaluate_label_single(pred, true, weights=None):
             "Priority_Level": 0.2,
         }
 
-    # Initialize results
-    results = {"Field": {}, "Overall Weighted Score": 0}
+    fields = [
+        "Spam", "Time_Sensitive", "Type", "Category", "Format",
+        "Time Period", "Priority_Level"
+    ]
+    
+    # Initialize default results
+    results = {
+        "Field": {field: 0 for field in fields},  # Set all fields to 0 by default
+        "Overall Weighted Score": 0
+    }
+
+    # # Initialize results
+    # results = {"Field": {}, "Overall Weighted Score": 0}
 
     # Spam correctness (Denominator)
     spam_correct = 1 if pred["Spam"] == true["Spam"] else 0
@@ -62,20 +108,40 @@ def evaluate_label_single(pred, true, weights=None):
             results["Field"][field] = 1 if pred[field] == true[field] else 0
         elif field in ["Start", "End"]:
             # Time Period
-            # If not time sensitive, this will automatically get 1
-            if results["Field"]["Time_Sensitive"] == 0:
+            if true["Time_Sensitive"] == "No":
+                # If the true label indicates not time-sensitive, time period is irrelevant
                 results["Field"]["Time Period"] = 1
+            elif results["Field"]["Time_Sensitive"] == 1:
+                # If time-sensitive and Time_Sensitive matches, evaluate time period
+                ## it will by pass the date with incorrect ending
+                # if pred.get("Start") and pred.get("End"): 
+
+                if pred.get("Start"):
+                    time_correct = is_time_period_correct(
+                        pred["Start"], pred["End"], true["Start"], true["End"]
+                    )
+                    results["Field"]["Time Period"] = 1 if time_correct else 0
+                else:
+                    # Missing Start or End
+                    results["Field"]["Time Period"] = 0
             else:
-                time_correct = is_time_period_correct(
-                    pred["Start"], pred["End"], true["Start"], true["End"]
-                )
-                results["Field"]["Time Period"] = 1 if time_correct else 0
+                # Mismatch in Time_Sensitive
+                results["Field"]["Time Period"] = 0
+            
         elif field == "Priority_Level":
             # Priority Level (Relaxed Match)
-            priority_map = {"Low": 1, "Medium": 2, "High": 3, "Urgent": 4}
-            pred_priority = priority_map[pred[field]]
-            true_priority = priority_map[true[field]]
-            results["Field"]["Priority_Level"] = 1 if abs(pred_priority - true_priority) <= 1 else 0
+            if pred[field] in {"Low", "Medium", "High", "Urgent"}:
+                priority_map = {"Low": 1, "Medium": 2, "High": 3, "Urgent": 4}
+                pred_priority = priority_map[pred[field]]
+                true_priority = priority_map[true[field]]
+                results["Field"]["Priority_Level"] = 1 if abs(pred_priority - true_priority) <= 1 else 0
+            else:
+                results["Field"]["Priority_Level"] = 0  # Missing or OoD value
+
+            # priority_map = {"Low": 1, "Medium": 2, "High": 3, "Urgent": 4}
+            # pred_priority = priority_map[pred[field]]
+            # true_priority = priority_map[true[field]]
+            # results["Field"]["Priority_Level"] = 1 if abs(pred_priority - true_priority) <= 1 else 0
 
     # Calculate weighted score using fields except Spam
     weighted_score = sum(

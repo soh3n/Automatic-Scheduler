@@ -66,21 +66,32 @@ def re_analyze_email(email: str) -> dict:
     # if end_match:
     #     label["End"] = end_match.group(1)
 
+    date_match = re.search(r"(\d{4}-\d{2}-\d{2})", email)
+    date = date_match.group(1) if date_match else None
+
+    # Extract start time
     time_match = re.search(r"(\d{1,2}:\d{2} (AM|PM))", email)
     if time_match:
-        # Convert to full datetime format
         start_time_str = time_match.group(1)
-        start_datetime = datetime.strptime(f"{date} {start_time_str}", "%Y-%m-%d %I:%M %p")
-        label["Start"] = start_datetime.strftime("%Y-%m-%d %H:%M")
+        if date:
+            # Convert to full datetime format if date is available
+            start_datetime = datetime.strptime(f"{date} {start_time_str}", "%Y-%m-%d %I:%M %p")
+            label["Start"] = start_datetime.strftime("%Y-%m-%d %H:%M")
+        else:
+            # Provide consistent format for unknown date
+            label["Start"] = f"Unknown-Date {start_time_str}"
 
     # Extract end time
     end_match = re.search(r"until (\d{1,2}:\d{2} (AM|PM))", email)
     if end_match:
-        # Convert to full datetime format
         end_time_str = end_match.group(1)
-        end_datetime = datetime.strptime(f"{date} {end_time_str}", "%Y-%m-%d %I:%M %p")
-        label["End"] = end_datetime.strftime("%Y-%m-%d %H:%M")
-
+        if date:
+            # Convert to full datetime format if date is available
+            end_datetime = datetime.strptime(f"{date} {end_time_str}", "%Y-%m-%d %I:%M %p")
+            label["End"] = end_datetime.strftime("%Y-%m-%d %H:%M")
+        else:
+            # Provide consistent format for unknown date
+            label["End"] = f"Unknown-Date {end_time_str}"
 
     # Determine type of the email
     type_keywords_reminder = r"reminder|don't forget|alert|due soon|deadline|urgent|asap"
