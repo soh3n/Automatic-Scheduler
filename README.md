@@ -23,7 +23,11 @@ What we hope to do can be sketched as:
 
 ## Data
 - From open dataset
+  - Real Emails from: []()
+  - Spam Emails from: [Enron Spam Data](https://github.com/MWiechmann/enron_spam_data)
 - Pseudo email with mannual labels
+  - We manually write 30 labels First
+  - Prompt GPT to genrate emails
 
 "./data/PAIRED_test.json"
 "./data/PAIRED_train.json"
