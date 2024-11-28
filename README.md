@@ -23,11 +23,15 @@ What we hope to do can be sketched as:
 
 ## Data
 - From open dataset
-  - Real Emails from: []()
+  - Real Emails from: [MailEx](https://github.com/salokr/email-event-extraction?tab=readme-ov-file) (Not actually used) and [atari email archive](https://github.com/voberoi/atariemailarchive-data)
   - Spam Emails from: [Enron Spam Data](https://github.com/MWiechmann/enron_spam_data)
 - Pseudo email with mannual labels
-  - We manually write 30 labels First
-  - Prompt GPT to genrate emails
+  1. anually write 30 labels First
+  2. Prompt GPT to genrate emails
+
+## Work Flow:
+[./data/PAIRED_test.json]
+
 
 "./data/PAIRED_test.json"
 "./data/PAIRED_train.json"
