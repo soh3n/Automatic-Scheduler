@@ -1,0 +1,295 @@
+[
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-11 09:30",
+        "Event Type": "Event",
+        "Category": "Work",
+        "Type": "Virtual",
+        "Action Required": "Yes",
+        "Priority Level": "Urgent"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-15 14:00",
+        "Event Type": "Reminder",
+        "Category": "Study",
+        "Type": "Physical",
+        "Action Required": "Yes",
+        "Priority Level": "High"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-20 11:15",
+        "Event Type": "Event",
+        "Category": "Leisure",
+        "Type": "Non",
+        "Action Required": "No",
+        "Priority Level": "Low"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-14 16:30",
+        "Event Type": "Reminder",
+        "Category": "Work",
+        "Type": "Physical",
+        "Action Required": "Yes",
+        "Priority Level": "High"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "No",
+        "Event Type": "Event",
+        "Category": "Leisure",
+        "Type": "Virtual",
+        "Action Required": "No",
+        "Priority Level": "Medium"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-18 10:00",
+        "Event Type": "Event",
+        "Category": "Study",
+        "Type": "Physical",
+        "Action Required": "Yes",
+        "Priority Level": "Medium"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-22 13:00",
+        "Event Type": "Reminder",
+        "Category": "Work",
+        "Type": "Virtual",
+        "Action Required": "No",
+        "Priority Level": "High"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-19 15:45",
+        "Event Type": "Event",
+        "Category": "Leisure",
+        "Type": "Physical",
+        "Action Required": "No",
+        "Priority Level": "Low"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "No",
+        "Event Type": "Reminder",
+        "Category": "Study",
+        "Type": "Non",
+        "Action Required": "No",
+        "Priority Level": "Low"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-25 17:00",
+        "Event Type": "Event",
+        "Category": "Work",
+        "Type": "Virtual",
+        "Action Required": "Yes",
+        "Priority Level": "Urgent"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-16 09:00",
+        "Event Type": "Event",
+        "Category": "Leisure",
+        "Type": "Non",
+        "Action Required": "No",
+        "Priority Level": "Low"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-13 12:30",
+        "Event Type": "Reminder",
+        "Category": "Study",
+        "Type": "Physical",
+        "Action Required": "Yes",
+        "Priority Level": "High"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "No",
+        "Event Type": "Event",
+        "Category": "Work",
+        "Type": "Non",
+        "Action Required": "Yes",
+        "Priority Level": "Medium"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-17 14:30",
+        "Event Type": "Event",
+        "Category": "Study",
+        "Type": "Virtual",
+        "Action Required": "Yes",
+        "Priority Level": "High"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-23 11:00",
+        "Event Type": "Reminder",
+        "Category": "Leisure",
+        "Type": "Physical",
+        "Action Required": "No",
+        "Priority Level": "Low"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-15 10:45",
+        "Event Type": "Event",
+        "Category": "Work",
+        "Type": "Physical",
+        "Action Required": "Yes",
+        "Priority Level": "High"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-26 08:30",
+        "Event Type": "Reminder",
+        "Category": "Study",
+        "Type": "Non",
+        "Action Required": "No",
+        "Priority Level": "Medium"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "No",
+        "Event Type": "Event",
+        "Category": "Leisure",
+        "Type": "Virtual",
+        "Action Required": "No",
+        "Priority Level": "Low"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-21 13:30",
+        "Event Type": "Event",
+        "Category": "Study",
+        "Type": "Physical",
+        "Action Required": "Yes",
+        "Priority Level": "Urgent"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-12 16:15",
+        "Event Type": "Reminder",
+        "Category": "Work",
+        "Type": "Virtual",
+        "Action Required": "No",
+        "Priority Level": "High"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-24 09:30",
+        "Event Type": "Event",
+        "Category": "Leisure",
+        "Type": "Non",
+        "Action Required": "No",
+        "Priority Level": "Low"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-18 10:30",
+        "Event Type": "Reminder",
+        "Category": "Study",
+        "Type": "Physical",
+        "Action Required": "Yes",
+        "Priority Level": "High"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "No",
+        "Event Type": "Event",
+        "Category": "Work",
+        "Type": "Non",
+        "Action Required": "No",
+        "Priority Level": "Medium"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-13 14:45",
+        "Event Type": "Reminder",
+        "Category": "Leisure",
+        "Type": "Physical",
+        "Action Required": "No",
+        "Priority Level": "Low"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-20 09:00",
+        "Event Type": "Event",
+        "Category": "Study",
+        "Type": "Virtual",
+        "Action Required": "Yes",
+        "Priority Level": "Urgent"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-22 15:00",
+        "Event Type": "Reminder",
+        "Category": "Work",
+        "Type": "Physical",
+        "Action Required": "No",
+        "Priority Level": "Medium"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "No",
+        "Event Type": "Event",
+        "Category": "Leisure",
+        "Type": "Non",
+        "Action Required": "No",
+        "Priority Level": "Low"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-19 14:30",
+        "Event Type": "Reminder",
+        "Category": "Work",
+        "Type": "Virtual",
+        "Action Required": "Yes",
+        "Priority Level": "High"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "Yes",
+        "Date / Time": "2024-11-21 17:15",
+        "Event Type": "Event",
+        "Category": "Study",
+        "Type": "Physical",
+        "Action Required": "Yes",
+        "Priority Level": "Urgent"
+    },
+    {
+        "Spam": "No",
+        "Time Sensitive": "No",
+        "Event Type": "Reminder",
+        "Category": "Leisure",
+        "Type": "Virtual",
+        "Action Required": "No",
+        "Priority Level": "Low"
+    }
+]

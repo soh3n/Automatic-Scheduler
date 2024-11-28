@@ -1,0 +1,5 @@
+# Ignore:
+
+.env
+.DS_Store
+data/bak

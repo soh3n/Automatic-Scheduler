@@ -1,0 +1,1151 @@
+{
+    "eval": [
+        {
+            "content": "From:\tBERT::MEYETTE       4-FEB-1992 10:01:23.66\nTo:\t@SYS$MAIL:ENGINEER\nCC:\t\nSubj:\tWELLS GARDNER DISPLAYS\n\n\nOn Tuesday, February 18, I will be at Wells Gardner to participate in an\nindustry review and critique of their new video displays (Model U1000 Series).\nI am looking for feedback from the game designers (and any other interested\nparties) on the following:\n\n1. What problems with the existing displays would you like to see corrected.\n\n2. What new features would you like to see included in these displays.\n\n3. What are the video specifications for new hardware currently under\n   developement and for hardware desings to be developed in the near future.\n\nNow is your chance to have your opinions and and wishes communicated directly\nback to Wells Gardner. They are still in the design stage for these displays,\nand this will give us an opportunity have our problems and opinons addressed.\nI need to have your feedback by Friday, February 14.\n\n\n\t\tRick",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "WELLS GARDNER DISPLAYS",
+                "Sender": "BERT::MEYETTE",
+                "send_date": "1992-02-04",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "N/A",
+                "Format": "N/A",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "WELLS GARDNER DISPLAYS",
+                "Sender": "BERT::MEYETTE",
+                "send_date": "1992-02-04",
+                "Time_Sensitive": "Yes",
+                "Start": "1992-02-18 00:00",
+                "End": "",
+                "Type": "Reminder",
+                "Category": "Work",
+                "Format": "In-person",
+                "Location": "Wells Gardner",
+                "Action_Required": "Yes",
+                "Priority_Level": "High"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "From:\tBERT::LINDA        \"Evening Receptionist\"  8-FEB-1991 19:27:09.74\nTo:\t@SYS$MAIL:EVERYBODY\nCC:\t\nSubj:\tMESSAGE\n\n\nBOB FRYE IS ON VACATION FEB 11-24. DENNIS NALE SHOULD BE CONTACTED IF THERE\nIS A FACILITIES PROBLEM.",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "MESSAGE",
+                "Sender": "BERT::LINDA",
+                "send_date": "1991-02-08",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "Leisure",
+                "Format": "N/A",
+                "Location": "N/A",
+                "Action_Required": "Yes",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "MESSAGE",
+                "Sender": "BERT::LINDA",
+                "send_date": "1992-02-08",
+                "Time_Sensitive": "Yes",
+                "Start": "1991-02-11 00:00",
+                "End": "1991-02-24 23:59",
+                "Type": "Reminder",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "Yes",
+                "Priority_Level": "High"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0.0
+            }
+        },
+        {
+            "content": "From:\tKIM::DOWNEND      16-JAN-1992 15:27:21.18\nTo:\t@SYS$MAIL:ENGINEER\nCC:\t\nSubj:\t4M EPROMS\n\n\nPlease see me if you need 4M EPROM's. I have several hundred in my\noffice. Engineering has been making MANY piecemeal MTO's that was creating\nunecessary work for the skeleton crew in Mfg. I MTOed a large quantity to\nreduce the thrashing.",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "4M EPROMS",
+                "Sender": "KIM::DOWNEND",
+                "send_date": "1992-01-16",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "Work",
+                "Format": "In-person",
+                "Location": "Office",
+                "Action_Required": "No",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "4M EPROMS",
+                "Sender": "KIM::DOWNEND",
+                "send_date": "1992-01-16",
+                "Time_Sensitive": "No",
+                "Start": "",
+                "End": "",
+                "Type": "N/A",
+                "Category": "Work",
+                "Format": "In-person",
+                "Location": "Engineering Office",
+                "Action_Required": "Yes",
+                "Priority_Level": "Medium"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 1,
+                    "Format": 1,
+                    "Time Period": 1,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0.7000000000000001
+            }
+        },
+        {
+            "content": "From:\tBERT::SANDY        18-FEB-1992 15:39:35.50\nTo:\tMARGOLIN\nCC:\t\nSubj:\tmessage\n\n\nTuesday  2/18  3:38pm\n\nTom Dempsey of Texas Instrument called and asked that you return his call.\n\n(408) 748-2291\n\nSandy",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "message",
+                "Sender": "BERT::SANDY",
+                "send_date": "1992-02-18",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "N/A",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "message",
+                "Sender": "BERT::SANDY",
+                "send_date": "1992-02-18",
+                "Time_Sensitive": "Yes",
+                "Start": "1992-02-18 15:38",
+                "End": "",
+                "Type": "Reminder",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "Yes",
+                "Priority_Level": "High"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 1,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0.1
+            }
+        },
+        {
+            "content": "From:\tGAWD::RAY           7-FEB-1992 12:01:59.06\nTo:\t@WALKABOUT.DIS\nCC:\tRAY\nSubj:\tDon't forget -- 3:30-5:30 today! -- Walkabout!\n\n\nJust a reminder...\n\nThe Walkabout today includes Tengen and Police Trainer labs -- \njust follow the corridor past Applied Research to Tengen and \nthen to the Trainer lab.\n\n3:30-5:00\n\nMunchies provided\n\nJohn",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "Don't forget -- 3:30-5:30 today! -- Walkabout!",
+                "Sender": "GAWD::RAY",
+                "send_date": "1992-02-07",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "Reminder",
+                "Category": "Study",
+                "Format": "N/A",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "Urgent"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Don't forget -- 3:30-5:30 today! -- Walkabout!",
+                "Sender": "GAWD::RAY",
+                "send_date": "1992-02-07",
+                "Time_Sensitive": "Yes",
+                "Start": "1992-02-07 15:30",
+                "End": "1992-02-07 17:30",
+                "Type": "Event",
+                "Category": "Work",
+                "Format": "In-person",
+                "Location": "Tengen, Police Trainer Labs",
+                "Action_Required": "No",
+                "Priority_Level": "Medium"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0.0
+            }
+        },
+        {
+            "content": "From: Lakshmi Iyer  \nSubject: When do you have time for a short online interview?\n\nHi [Recipient's Name],\n\nI hope you\u2019re doing well! I\u2019d like to arrange a short online interview with you through Zoom. I\u2019m flexible with timing and would love to find a slot that works for you.\n\nCould you please let me know your availability over the next few days?\n\nLooking forward to your response!\n\nBest,  \nLakshmi Iyer",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "N/A",
+                "Sender": "Lakshmi",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "When do you have time for a short online interview?",
+                "Sender": "Lakshmi Iyer",
+                "send_date": "2024-09-23",
+                "Time_Sensitive": "No",
+                "Start": "",
+                "End": "",
+                "Type": "Event",
+                "Category": "Leisure",
+                "Format": "Online",
+                "Location": "Zoom",
+                "Action_Required": "No",
+                "Priority_Level": "Medium"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 1,
+                    "Time Period": 1,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0.5
+            }
+        },
+        {
+            "content": "From:\tKIM::DOWNEND       5-MAR-1992 11:59:11.13\nTo:\t@[RAY.REMINDERS]WALKABOUT.DIS\nCC:\t\nSubj:\tWalkabout\n\n\nWalkabout is postponed.  There will be no walkabout tommorrow, Friday 3/6/92.\nInstead, We'll have Walkabout NEXT WEEK on Thursday, 3/12/92 3:30 to 5:00PM.\nOur hosts, Relief Pitcher team are \"busy\" getting many last minute \nchanges into the game before putting games on test Friday, 3/6.",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "Walkabout",
+                "Sender": "KIM::DOWNEND",
+                "send_date": "1992-03-05",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "Reminder",
+                "Category": "Work",
+                "Format": "N/A",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "Urgent"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Walkabout",
+                "Sender": "Unknown",
+                "send_date": "1992-03-05",
+                "Time_Sensitive": "Yes",
+                "Start": "1992-03-12 15:30",
+                "End": "1992-03-12 17:00",
+                "Type": "Event",
+                "Category": "Work",
+                "Format": "In-person",
+                "Location": "Relief Pitcher Team's Area",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 1,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0.1
+            }
+        },
+        {
+            "content": "From: Amina Diallo  \nDate: 2024-11-11  \nSubject: Ticket Number 53401: Hot Fix Required Before Nov 14th  \n\nDear Team,\n\nI am writing to bring to your attention the urgent matter regarding ticket number 53401. A hot fix is required to address the issues before our deadline on November 14, 2024, at 4:30 PM. The resolution will be conducted online via Zoom.\n\nPlease prioritize this task and provide me with an update on your progress by the end of today. If you have any questions or need further clarification, do not hesitate to reach out.\n\nThank you for your immediate attention to this matter.\n\nBest regards,  \nAmina Diallo  ",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "N/A",
+                "Sender": "Amina",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-11 16:30",
+                "End": "N/A",
+                "Type": "Reminder",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "Urgent"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Ticket number 53401: Hot fix required before Nov 14th",
+                "Sender": "Amina Diallo",
+                "send_date": "2024-11-10",
+                "Time_Sensitive": "Yes",
+                "Start": "2024-11-14 16:30",
+                "End": "",
+                "Type": "Reminder",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "Zoom",
+                "Action_Required": "Yes",
+                "Priority_Level": "High"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 1,
+                    "Format": 1,
+                    "Time Period": 0,
+                    "Priority_Level": 1
+                },
+                "Overall Weighted Score": 0.4
+            }
+        },
+        {
+            "content": "From: Yasmin Jaber  \nDate: 2024-11-11  \nSubject: Final Exam Study Group Meeting - Important Reminder!\n\nHi everyone,\n\nI hope you\u2019re all doing well! This is a friendly reminder about our upcoming Final Exam Study Group Meeting scheduled for Monday, November 18, 2024, at 10:30 AM. We\u2019ll meet in our regular classroom. \n\nPlease make every effort to attend, as we\u2019ll be going over crucial topics that will be covered in the exam. It would also be great to share any questions or insights you may have, so we can support each other effectively.\n\nCould you please confirm your attendance? Feel free to reach out if you have any topics you\u2019d like us to focus on during the session.\n\nLooking forward to seeing everyone there!\n\nBest,  \nYasmin Jaber",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "N/A",
+                "Sender": "Yasmin",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-11 10:30",
+                "End": "N/A",
+                "Type": "Reminder",
+                "Category": "Study",
+                "Format": "N/A",
+                "Location": "Room",
+                "Action_Required": "Yes",
+                "Priority_Level": "Urgent"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Final Exam Study Group Meeting - Important Reminder!",
+                "Sender": "Yasmin Jaber",
+                "send_date": "2024-11-16",
+                "Time_Sensitive": "Yes",
+                "Start": "2024-11-18 10:30",
+                "End": "",
+                "Type": "Reminder",
+                "Category": "Study",
+                "Format": "In-person",
+                "Location": "regular classroom",
+                "Action_Required": "Yes",
+                "Priority_Level": "High"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 1,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 1
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "From: Thabo Mbeki  \nDate: 2024-11-20  \nSubject: Join Us for a Delightful Lunch Party with Thabo Today!\n\nDear Friends,\n\nI hope you're all doing well! I'm excited to invite you to a delightful lunch party happening today, November 20, 2024, from 11:15 AM to 1:00 PM at the Student Hall.\n\nThis is a wonderful opportunity to catch up, enjoy some delicious food, and share some great moments together. Feel free to drop by and join in the fun!\n\nLooking forward to seeing many of you there!\n\nWarm wishes,  \nThabo Mbeki",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "N/A",
+                "Sender": "Thabo",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-20 11:15",
+                "End": "N/A",
+                "Type": "Event",
+                "Category": "Leisure",
+                "Format": "N/A",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Join us for a delightful lunch party with Thabo today!",
+                "Sender": "Thabo Mbeki",
+                "send_date": "2024-11-20",
+                "Time_Sensitive": "Yes",
+                "Start": "2024-11-20 11:15",
+                "End": "2024-11-20 13:00",
+                "Type": "Event",
+                "Category": "Leisure",
+                "Format": "In-person",
+                "Location": "Student Hall",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 1,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "From: Amir Al-Farsi  \nDate: 2024-11-20  \nSubject: Urgent Meeting: Discussion on Project Milestones and Deadlines\n\nDear Team,\n\nI hope this message finds you well. I would like to convene an urgent meeting to discuss the milestones and deadlines related to our current project. The meeting will take place in the Strategy Room 203 on Thursday, November 21, 2024, from 1:30 PM to 3:15 PM.\n\nPlease make it a priority to attend this meeting as we will be addressing critical topics that require your input. Kindly confirm your attendance at your earliest convenience. If you have any questions or need further clarification beforehand, feel free to reach out.\n\nThank you for your attention, and I look forward to seeing all of you there.\n\nBest regards,  \nAmir Al-Farsi  ",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "N/A",
+                "Sender": "Amir",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-20 13:30",
+                "End": "N/A",
+                "Type": "Reminder",
+                "Category": "Work",
+                "Format": "N/A",
+                "Location": "Room",
+                "Action_Required": "Yes",
+                "Priority_Level": "Urgent"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Urgent Meeting: Discussion on Project Milestones and Deadlines",
+                "Sender": "Amir Al-Farsi",
+                "send_date": "2024-11-20",
+                "Time_Sensitive": "Yes",
+                "Start": "2024-11-21 13:30",
+                "End": "2024-11-21 15:15",
+                "Type": "Event",
+                "Category": "Study",
+                "Format": "In-person",
+                "Location": "startegy room 203",
+                "Action_Required": "Yes",
+                "Priority_Level": "Urgent"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 1
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "From: Aamir Khan  \nDate: 2024-11-20  \nSubject: Information Session: A Cozy Virtual Get-Together to Unwind and Chat  \n\nHello Everyone,\n\nI hope you\u2019re all doing well! I\u2019m excited to invite you to a cozy virtual get-together on Saturday, November 23, 2024, from 2:30 PM to 3:30 PM. We\u2019ll be gathering online via Google Meet for an hour of informal conversation and relaxation.\n\nThis will be a great opportunity to unwind, share stories, and connect with each other in a relaxed atmosphere. There\u2019s no need to prepare anything\u2014just bring your favorite beverage and join us for a pleasant chat!\n\nFeel free to pop in whenever you can; it would be lovely to see as many of you as possible.\n\nLooking forward to some enjoyable conversations!\n\nBest,  \nAamir Khan",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "N/A",
+                "Sender": "Aamir",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-20 14:30",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "N/A",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Information session: A cozy virtual get-together to unwind and chat.",
+                "Sender": "Aamir Khan",
+                "send_date": "2024-11-19",
+                "Time_Sensitive": "No",
+                "Start": "2024-11-23 14:30",
+                "End": "2024-11-23 15:30",
+                "Type": "Event",
+                "Category": "Leisure",
+                "Format": "Online",
+                "Location": "Google Meet",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 1,
+                    "Time Period": 1,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "From: Mia O\u2019Connor  \nDate: 2024-11-11  \nSubject: Briefing Session Changed to 9:30 This Morning\n\nDear Team,\n\nI hope this message finds you well. I wanted to inform you that the briefing session scheduled for today has been changed. It will now be held online via Microsoft Teams from 9:30 AM to 10:00 AM.\n\nPlease confirm your attendance at your earliest convenience and let me know if you have any questions regarding the session or accessing the platform.\n\nThank you for your immediate attention to this change.\n\nBest regards,  \nMia O\u2019Connor",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "N/A",
+                "Sender": "Mia",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-11 09:30",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "Yes",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Briefint session changed to 9:30 this morning",
+                "Sender": "Mia O'Connor",
+                "send_date": "2024-11-11",
+                "Time_Sensitive": "Yes",
+                "Start": "2024-11-11 09:30",
+                "End": "2024-11-11 10:00",
+                "Type": "Event",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "Microsoft Teams",
+                "Action_Required": "Yes",
+                "Priority_Level": "Urgent"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 1,
+                    "Format": 1,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0.2
+            }
+        },
+        {
+            "content": "From: Yuki Tanaka  \nDate: 2024-11-11  \nSubject: Project Deadline Approaching Soon!\n\nDear Team,\n\nI hope this email finds you well. I want to remind everyone that our project deadline is quickly approaching. As a friendly reminder, please ensure you have all your tasks completed by November 19, 2024, at 2:30 PM.\n\nTo facilitate a smooth submission process, I kindly ask that you confirm your progress and raise any concerns or questions you might have. It\u2019s crucial that we stay aligned to meet our deadlines.\n\nThank you for your cooperation and hard work!\n\nBest,  \nYuki Tanaka",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "N/A",
+                "Sender": "Yuki",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-11 14:30",
+                "End": "N/A",
+                "Type": "Reminder",
+                "Category": "Work",
+                "Format": "N/A",
+                "Location": "N/A",
+                "Action_Required": "Yes",
+                "Priority_Level": "Urgent"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Project Deadline Approaching Soon!",
+                "Sender": "Yuki Tanaka",
+                "send_date": "2024-11-17",
+                "Time_Sensitive": "Yes",
+                "Start": "2024-11-19 14:30",
+                "End": "",
+                "Type": "Reminder",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "TBD",
+                "Action_Required": "Yes",
+                "Priority_Level": "High"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 1,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 1
+                },
+                "Overall Weighted Score": 0.30000000000000004
+            }
+        },
+        {
+            "content": "From:\tKIM::PAAUW        \"I swear, it was that way when I found it.\" 11-MAR-1992 10:31:00.19\nTo:\t@SYS$MAIL:HARDWARE\nCC:\t\nSubj:\tConcurrent Logic FPGA meeting Thur., Mar. 19 @ 3:00\n\n\n\tBill Mullins will be in @ 3:00 on Thursday, March 19 to peddle the Concurrent \nLogic family of FPGA's.  It will probably be in the Enginering Conf. room.",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "Concurrent Logic FPGA meeting Thur., Mar. 19 @ 3:00",
+                "Sender": "KIM::PAAUW",
+                "send_date": "1992-03-11",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "Event",
+                "Category": "N/A",
+                "Format": "N/A",
+                "Location": "Room",
+                "Action_Required": "No",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Concurrent Logic FPGA Meeting Thur., Mar. 19 @ 3:00",
+                "Sender": "Bill Mullins",
+                "send_date": "1992-03-11",
+                "Time_Sensitive": "Yes",
+                "Start": "1992-03-19 15:00",
+                "End": "",
+                "Type": "Reminder",
+                "Category": "Work",
+                "Format": "In-person",
+                "Location": "Engineering Conference Room",
+                "Action_Required": "Yes",
+                "Priority_Level": "Medium"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0.0
+            }
+        },
+        {
+            "content": "Subj:   antigen downstairs dance\t\n\nstill no luck enlarging it ?\nour 2 products will work for you !\n1 . # 1 supplement available ! - works !\nfor vprx ciilck here\nand\n2 . * new * enhancement oil - get hard in 60 seconds ! amazing !\nlike no other oil you ' ve seen .\nfor vprx oil ciilck here\nthe 2 products work great together\nfor women only : ciilck here\nnot intreseted\nafterimage bill honey condiment pirouette selectric chaperon credo din butterball bade crossroad gertrude cottage imprint hone gaseous proscenium clear dime crud for disco homicide grimm riffle enzymology adsorption cowpox coy dune airfoil parakeet anyway drunken fluorspar party\nglans faun pedestal cyanamid angst knick quadripartite chateaux diego flo gagwriter cerise fundraise alexei float original isotope dietary ortega autopsy catbird concessionaire bedrock dad hummingbird bloodbath hampton queue chafe ill arrogant implantation schist oxalate dublin heterozygous calamity erda giggle\nflashy christianson brevet quirk domino circumstance shoofly digestive gillette doldrums mannerism alike ensemble rosebud levity handwritten bobbie d ' s hexachloride colander chastise\nripley fear monetarist elisha beribbon collusion inescapable duck herb chigger arose headwall furlough martian psychiatrist goodwill cuny barrage grope board auditory dairyman cure dying boogie bessel laboratory buggy radcliffe frustrate horatio russet galvanic aphasic crotch siege benedictine bilateral heritage\nreputation compel consolation monteverdi scenic indebted imperial crappie assure dewey prefix illume nonagenarian corona diffuse remand detour diffeomorphism rowland backboard coverall catalytic conscription monsanto nonchalant americanism dutch chandler cadenza ceq hasp laue glossed formaldehyde obscene miscible intrusion paleolithic scylla barbell\nfriday koppers grady denature envoy meretricious frederick brahms comprehension allemand sara farina aspirant\nfortuitous covet acidulous leaky goldberg hidden herr sinister buzzword chaos\ngladdy jitter aura saskatchewan atropos kodak eleanor penh gradual elfin mythology calligraph papoose blister parochial communicant helvetica fill bong hightail controvertible\nregis denounce lump marvin ebullient end bimetallism gail isomorph nether candle enstatite brillouin estrange personnel aldrich less babysit candlewick paunch infarct covary biz dervish gillette newborn riverbank auto harpoon antarctic birdseed respecter brochure lonesome mound mauritania\ngallinule dielectric cavalcade durham flute fact decontrolled decile fibrosis admixture ektachrome cardboard inflammable commensurable brae diorite politico aid liar roberts auditory crucify abash federate extempore dispensate detoxify dissonant colonial romania fingertip brace friday buoy draftsmen rococo pm presbytery hemisphere exchange\"",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "antigen downstairs dance",
+                "Sender": "N/A",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "Event",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "High"
+            },
+            "true_label": {
+                "Spam": "Yes",
+                "Subject": "",
+                "Sender": "",
+                "send_date": "",
+                "Time_Sensitive": "No",
+                "Start": "",
+                "End": "",
+                "Type": "N/A",
+                "Category": "Leisure",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 1,
+                    "Time Period": 1,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "From: Nadia Ali  \nDate: 2024-11-13  \nSubject: Time to Unwind: Join Us for a Virtual Coffee Catch-Up!  \n\nHi everyone,  \n\nI hope you\u2019re all doing well! I\u2019m excited to invite you to a virtual coffee catch-up on Wednesday, November 20, 2024, at 1:30 PM. We\u2019ll be meeting online via Webex to take a break, connect, and share some good conversation.  \n\nThis will be a relaxed opportunity to unwind, so grab your favorite coffee and join me for a chat. Feel free to pop in whenever you can; there\u2019s no need for an RSVP!  \n\nLooking forward to sharing some virtual coffee together!  \n\nWarm wishes,  \nNadia Ali  ",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "N/A",
+                "Sender": "Nadia",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-13 13:30",
+                "End": "N/A",
+                "Type": "Event",
+                "Category": "N/A",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "Yes",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Time to unwind: Join us for a virtual coffee catch-up!",
+                "Sender": "Nadia Ali",
+                "send_date": "2024-11-01",
+                "Time_Sensitive": "No",
+                "Start": "2024-11-20 13:30",
+                "End": "",
+                "Type": "Reminder",
+                "Category": "Leisure",
+                "Format": "Online",
+                "Location": "Webex",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 1,
+                    "Time Period": 1,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "From: Lakshmi Iyer  \nDate: 2024-11-15  \nSubject: A Chance to Collaborate at the Monthly Team Brainstorming Session!\n\nDear Team,\n\nI hope this email finds you well! I'm excited to invite you to our upcoming monthly team brainstorming session scheduled for Thursday, November 28, 2024, from 10:30 AM to 11:30 AM. We\u2019ll be meeting in person at the Crimson Cafe.\n\nThis is a fantastic opportunity for us to come together, share ideas, and collaborate on various projects we have in the pipeline. Your input is invaluable, and I look forward to what we can achieve collectively.\n\nFeel free to bring along any materials you\u2019d like to discuss. I hope to see all of you there!\n\nBest,  \nLakshmi Iyer  ",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "N/A",
+                "Sender": "Lakshmi",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-15 10:30",
+                "End": "N/A",
+                "Type": "Event",
+                "Category": "Work",
+                "Format": "N/A",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "A chance to collaborate at the monthly team brainstorming session!",
+                "Sender": "Lakshmi Iyer",
+                "send_date": "2024-11-15",
+                "Time_Sensitive": "No",
+                "Start": "2024-11-28 10:30",
+                "End": "2024-11-28 11:30",
+                "Type": "Event",
+                "Category": "Work",
+                "Format": "In-person",
+                "Location": "Crimson Cafe",
+                "Action_Required": "No",
+                "Priority_Level": "Medium"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 1,
+                    "Format": 0,
+                    "Time Period": 1,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "From:\tGAWD::RAY           3-FEB-1992 17:06:26.21\nTo:\t@WALKABOUT.DIS\nCC:\tRAY\nSubj:\tWalkabout Friday -- 3:30-5:00 -- 2/7/92 -- New and improved!\n\n\n     Rusty Dawe and the Atari Games Network team will be hosting\nthis week's Walkabout Friday. We will be having more labs (and \nmore munchies!) to Walkabout through this month: Tengen and\nTraining Simulation  R&D. Both of these areas are on the North\nend of the building  -- just follow the crowd! \n \n     The festivities will begin at 3:30 in the Alpha, Nu, Omega,\nTengen, and Simulation R&D labs. Please come by the labs, sample the\nmunchies, play the games, and give your feedback (positive and\nnegative).\n\n                       Friday, Feb. 7, 1992\n                        3:30 - 5:00 p.m.\nJohn",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "Walkabout Friday -- 3:30-5:00 -- 2/7/92 -- New and improved!",
+                "Sender": "GAWD::RAY",
+                "send_date": "1992-02-03",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "Event",
+                "Category": "Work",
+                "Format": "N/A",
+                "Location": "Building",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Walkabout Friday -- 3:30-5:00 -- 2/7/92 -- New and improved!",
+                "Sender": "GAWD::RAY",
+                "send_date": "1992-02-03",
+                "Time_Sensitive": "Yes",
+                "Start": "1992-02-07 15:30",
+                "End": "1992-02-07 17:00",
+                "Type": "Event",
+                "Category": "Work",
+                "Format": "In-person",
+                "Location": "Alpha, Nu, Omega, Tengen, Simulation R&D Labs",
+                "Action_Required": "No",
+                "Priority_Level": "Medium"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 1,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 1
+                },
+                "Overall Weighted Score": 0.30000000000000004
+            }
+        },
+        {
+            "content": "From: Milica Jovanovi\u0107  \nDate: 2024-11-11  \nSubject: Group Study Session - Your Attendance is Crucial!\n\nDear Team,\n\nI hope you are all doing well! I wanted to remind you that our group study session is scheduled for Thursday, November 21, 2024, from 5:15 PM to 6:45 PM in room 213.\n\nYour attendance is essential as we'll be reviewing key materials and preparing for upcoming assessments. Please confirm your attendance at your earliest convenience, and let me know if you have any questions or topics you would like to discuss during our session.\n\nThank you for your cooperation and commitment to our group\u2019s success!\n\nBest regards,  \nMilica Jovanovi\u0107",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "N/A",
+                "Sender": "Milica",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-11 17:15",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "Work",
+                "Format": "N/A",
+                "Location": "Room",
+                "Action_Required": "Yes",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Group Study Session - Your Attendance is Crucial!",
+                "Sender": "Milica Jovanovi\u0107",
+                "send_date": "2024-11-20",
+                "Time_Sensitive": "Yes",
+                "Start": "2024-11-21 17:15",
+                "End": "2024-11-21 18:45",
+                "Type": "Event",
+                "Category": "Study",
+                "Format": "In-person",
+                "Location": "room 213",
+                "Action_Required": "Yes",
+                "Priority_Level": "Urgent"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 0,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "From:\tKIM::COPPERMAN    26-FEB-1992 12:31:02.71\nTo:\t@SYS$MAIL:ENGINEER.DIS\nCC:\t\nSubj:\tReview of Macintosh Universe CAD System Functional Design\n\n\nOn Friday, February 28, at 2:00, in the Central Conference Room, there \nwill be a 2-hour meeting to discuss Alan Gray's functional design of the \n\"Macintosh Universe CAD System.\"  This is a follow-up meeting which was\npreceded by one held on Jan. 22 where we discussed the requirements.\nLois Turner has design document copies which are available upon request. \n\n\t\t\t\t\tNorm",
+            "pred_label": {
+                "Spam": "No",
+                "Subject": "Review of Macintosh Universe CAD System Functional Design",
+                "Sender": "KIM::COPPERMAN",
+                "send_date": "1992-02-26",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "Event",
+                "Category": "Leisure",
+                "Format": "In-person",
+                "Location": "Room",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Review of Macintosh Universe CAD System Functional Design",
+                "Sender": "KIM::COPPERMAN",
+                "send_date": "1992-02-26",
+                "Time_Sensitive": "Yes",
+                "Start": "1992-02-28 14:00",
+                "End": "1992-02-28 16:00",
+                "Type": "Event",
+                "Category": "Work",
+                "Format": "In-person",
+                "Location": "Central Conference Room",
+                "Action_Required": "Yes",
+                "Priority_Level": "High"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 0,
+                    "Format": 1,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0.2
+            }
+        },
+        {
+            "content": "Subj:   grate\n\nstill no luck enlarging it ?\nour 2 products will work for you !\n1 . # 1 supplement available ! - works !\nfor vprx ciilck here\nand\n2 . * new * enhancement oil - get hard in 60 seconds ! amazing !\nlike no other oil you ' ve seen .\nfor vprx oil ciilck here\nthe 2 products work great together\nfor women only : ciilck here\nnot intreseted\nschulz mournful acceptor cavilling acrobacy pack foot lukemia serendipity impresario garfield artifice chink join crimp augusta charley betrayal pollen burg lithic couldn ' t candace circuitous dutiful champ bipartisan btu brumidi cheese registry cogitate arkansan\narrow jewelry alaska alphanumeric equipping prowess diehard electrocardiogram herculean aorta highfalutin boxcar ernie roadside pinhead dilution goodwin shakespearian illogic befoul eelgrass allotropic elgin meteorology heart fledge nirvana pathogen passe exploit hymn contextual because chatham arrange maryland cancelled rubin praise brent\nironstone bremsstrahlung hebe bronx capacitor flout joshua civilian belshazzar groundwork carol cambodia occurred mobility blest reflectance great algol cheap glacis apathy gut convict porto flagler bushwhack epoxy pathogen errant handleable balustrade\nculture patrimony conveyance homogenate abacus ontario f geography mccall defensible hardworking encapsulate deviate dollar phenylalanine\nhangmen inheritor abrade elude mccoy norway mcconnell aid dominique panel decertify hasp bail expensive gourd hurricane\ndigging hanna conclave catechism innovate clapboard forward quality jr daydream convergent boca avuncular howsomever brazzaville ell crossroad grainy awl honoree hanukkah bacchus befitting fda mane cat\ncalcite platonist grosbeak baseman grad grout euridyce heinz capsule maseru hurtle parenthetic consolation aspirate o ' s inferred controvertible amtrak antler lampoon\ngolden gilbertson postfix crossword morocco default debarring postorder copenhagen duplicable\nmessage numismatist pursue minnie census genii croupier process monoid handshake machinery edt divisible annalen\nbuss lumberman apricot excisable ness advisee proletariat mint huber esophagi lummox gibbous\"",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "grate",
+                "Sender": "N/A",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "Yes",
+                "Priority_Level": "High"
+            },
+            "true_label": {
+                "Spam": "Yes",
+                "Subject": "",
+                "Sender": "",
+                "send_date": "",
+                "Time_Sensitive": "No",
+                "Start": "",
+                "End": "",
+                "Type": "N/A",
+                "Category": "Leisure",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 0,
+                    "Format": 1,
+                    "Time Period": 1,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0.6000000000000001
+            }
+        },
+        {
+            "content": "From:\tBERT::STAN         16-MAR-1992 16:10:43.76\nTo:\t@SYS$MAIL:EVERYBODY\nCC:\t\nSubj:\tSt. Patrick's Day\n\n\nThe Recreation Committee sincerely hopes you will all enjoy the FREE\nyogurt and Popcorn in the cafeteria tomorrow.  It should be ready in\ntime for the early lunch hour.  We hope you will all enjoy the decorations\nand Pat's Special Yogurt!\n\nHAPPY ST. PATRICK'S DAY",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "St. Patrick's Day",
+                "Sender": "BERT::STAN",
+                "send_date": "1992-03-16",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "Leisure",
+                "Format": "N/A",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "St. Patrick's Day",
+                "Sender": "Stan",
+                "send_date": "1992-03-16",
+                "Time_Sensitive": "No",
+                "Start": "",
+                "End": "",
+                "Type": "Reminder",
+                "Category": "Leisure",
+                "Format": "In-person",
+                "Location": "Cafeteria",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 0,
+                    "Category": 1,
+                    "Format": 0,
+                    "Time Period": 1,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "From: Hugo Dupont  \nDate: 2024-11-13  \nSubject: Coffee Catch-Up with Hugo on November 16th!  \n\nHi everyone,\n\nI hope you're having a great week! I\u2019m excited to invite you to a coffee catch-up this Saturday, November 16, 2024, from 9:00 AM to 10:45 AM. We\u2019ll be meeting in person at Starbucks in the Student Union.\n\nThis gathering is all about unwinding and enjoying some good conversation over coffee, so come by when you can! There\u2019s no need to RSVP\u2014just bring your smiles and let\u2019s enjoy a relaxed morning together.\n\nLooking forward to seeing you there!\n\nWarm regards,  \nHugo Dupont",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "N/A",
+                "Sender": "Hugo",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "2024-11-13 09:00",
+                "End": "N/A",
+                "Type": "Event",
+                "Category": "N/A",
+                "Format": "N/A",
+                "Location": "N/A",
+                "Action_Required": "Yes",
+                "Priority_Level": "N/A"
+            },
+            "true_label": {
+                "Spam": "No",
+                "Subject": "Coffee Catch-Up with Hugo on November 16th!",
+                "Sender": "Hugo Dupont",
+                "Time_Sensitive": "Yes",
+                "send_date": "2024-11-13",
+                "Start": "2024-11-16 09:00",
+                "End": "2024-11-16 10:45",
+                "Type": "Event",
+                "Category": "Leisure",
+                "Format": "In-person",
+                "Location": "Starbucks in Student Union",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 0,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 0,
+                    "Format": 0,
+                    "Time Period": 0,
+                    "Priority_Level": 0
+                },
+                "Overall Weighted Score": 0
+            }
+        },
+        {
+            "content": "Subj:  await your response\n\ndear partner ,\nwe are a team of government officials that belong to an eight - man committee in the presidential cabinet as well as the senate .\nat the moment , we will be requiring your assistance in a matter that involves investment of monies , which we intend to transfer to your account , upon clarification and a workable agreement reached in consummating the project with you . based on a recommendation from an associate concerning your integrity , loyalty and understanding , we deemed it necessary to contact you accordingly . all arrangements in relation to this investment initiative , as well as the initial capital for its take off has been tactically set aside to commence whatever business you deemed fit , that will turn around profit favourably . we request you immediately contact us if you will be favorably disposed to act as a partner in this venture , and possibly will afford us the opportunity to discuss whatever proposal you may come up with . also\nbear in mind that the initial capital that we shall send across will not exceed $ 13 , 731 , 000 , 00 usd ( thirteen million seven hundred and thirty one thousand united states dollars ) so whatever areas of investment your proposal shall cover , please it should be within the set aside capital . in this regard , the proposal you may wish to discuss with us should be comprehensive enough for our better understanding ; with special emphasis on the following :\n1 . the tax obligationin your country\n2 . the initial capital base required in your proposed\ninvestment area , as well as ;\n3 . the legal technicalities in setting up a\nbusiness in your country with foreigners as share - holders\n4 . the most convenient and secured mode of receiving the funds without our direct involvement .\n5 . your ability to provide a beneficiary / partnership account with a minimal deposit , where we shall transfer the funds into subsequently .\nanother area that we wish to explicitly throw more light on , is the process we have conceived in transferring the funds into the account you shall be providing . since we are the owners of the funds , and the money will be leaving the apex bank of my country , we shall purposefully fulfill the legal obligations precedent to transferring\nsuch huge amount of funds , without arousing suspicion from any quarter as a drug or terrorist related funds ; and this will assist us in the long run to forestall any form of investigations . remember that , on no account must we be seen or perceived to be directly connected with the transfer of funds . you will be the one to be doing all these , and in the course of transfer , if for any reason whatsoever , you incurred some bills , we shall adequately retire same , upon the successful confirmation of the funds in your account . the commencement of this project is based on your ability to convince us of the need to invest in whatever business you have chosen , and to trust your personality and status , especially as it concerns the security of the\nfunds in your custody .\ni await your response ,\nsincerely ,\njohn adams\n( chairman senate committee on banks and currency )\ncall number : 234 - 802 - 306 - 8507",
+            "pred_label": {
+                "Spam": "Yes",
+                "Subject": "await your response",
+                "Sender": "N/A",
+                "send_date": "N/A",
+                "Time_Sensitive": "N/A",
+                "Start": "N/A",
+                "End": "N/A",
+                "Type": "N/A",
+                "Category": "Work",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "Yes",
+                "Priority_Level": "Low"
+            },
+            "true_label": {
+                "Spam": "Yes",
+                "Subject": "",
+                "Sender": "",
+                "send_date": "",
+                "Time_Sensitive": "No",
+                "Start": "",
+                "End": "",
+                "Type": "N/A",
+                "Category": "Leisure",
+                "Format": "Online",
+                "Location": "N/A",
+                "Action_Required": "No",
+                "Priority_Level": "Low"
+            },
+            "result": {
+                "Field": {
+                    "Spam": 1,
+                    "Time_Sensitive": 0,
+                    "Type": 1,
+                    "Category": 0,
+                    "Format": 1,
+                    "Time Period": 1,
+                    "Priority_Level": 1
+                },
+                "Overall Weighted Score": 0.7000000000000001
+            }
+        }
+    ],
+    "metrics": {
+        "Binary Metrics": {
+            "Spam": {
+                "ACC": 0.56,
+                "F1": 0.717948717948718,
+                "Recall": 0.56
+            },
+            "Time_Sensitive": {
+                "ACC": 0.0,
+                "F1": 0.0,
+                "Recall": 0.0
+            }
+        },
+        "Categorical Metrics": {
+            "Time Period": 0.36,
+            "Type": 0.44,
+            "Category": 0.4,
+            "Format": 0.44,
+            "Priority_Level": 0.24
+        },
+        "Averaged Weighted Score": 0.16400000000000003
+    }
+}

@@ -1,0 +1,30 @@
+From:	GAWD::SHEPPERD     23-JAN-1992 16:42:30.46
+To:	@SYS$MAIL:EVERYBODY
+CC:	SHEPPERD
+Subj:	System down time
+
+
+We have to do some minor power maintenance and we have to re-arrange the
+placement of some of the equipment in the computer room this saturday
+(1/25/92). If I'm lucky (rarely), it will follow this schedule:
+
+There will be no modem access the whole day.
+
+Approximately between the hours of 9am to 11am you may find the following:
+
+The Unix systems agc and dms will be down which means no name and
+	font servers for you X terminal users!
+The Terminal servers will be down which means no printer or terminal access to
+	the vaxes for anyone.
+The ethernet will behave goofy or won't work at all.
+KIM and BERT will be down and the others will probably crash just to
+annoy me.
+
+All of this will be due to the fact that none of this equipment will be
+plugged in.
+
+Then, sometime between the hours of 11am and 1pm you may find that no
+telephones anywhere in either 675 or 735 work. This will be due to the fact
+that the Rolm system will be unplugged.
+
+ds

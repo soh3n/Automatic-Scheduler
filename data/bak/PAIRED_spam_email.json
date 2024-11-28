@@ -1,0 +1,135 @@
+[
+    {
+        "path": "./raw_emails/atariarchive2.txt",
+        "content": "From:\tBERT::SAMANIEGO    \"Steph\"  6-JAN-1992 15:14:49.20\nTo:\t@SYS$MAIL:JUNK\nCC:\t\nSubj:\tCAR FOR SALE\n\n\nI'm selling my Honda Prelude if anyone is interested, it's a 1988 si fully\nloaded (red) 5 speed with a clifford alarm system bikini bra and floormats as\nextras.  I'm asking 10,500.00 or best offer.  It's in excellent condition with\n45k.  The only reason I'm selling it is because I'm moving to Oregon in two\nweeks and I won't be needing it anymore.  If you can help find a home for my\ncar I would appreciate it. Call x491 Thanks,\nSteph",
+        "label": {
+            "Spam": "Yes",
+            "Subject": "CAR FOR SALE",
+            "Sender": "BERT::SAMANIEGO",
+            "send_date": "1992-01-06",
+            "Time_Sensitive": "No",
+            "Start": "",
+            "End": "",
+            "Type": "N/A",
+            "Category": "Leisure",
+            "Format": "In-person",
+            "Location": "N/A",
+            "Action_Required": "No",
+            "Priority_Level": "Low"
+        }
+    },
+    {
+        "path": "./raw_emails/atariarchive12.txt",
+        "content": "From:\tBERT::FRANCES       7-FEB-1992 16:32:15.78\nTo:\t@SYS$MAIL:JUNK\nCC:\t\nSubj:\tTHE FLOWERMAN\n\n\nJUST A REMINDER THAT THE VALENTINE FLOWERS HAVE TO BE ORDERED BY \nTUESDAY FEB.11TH.  PLEASE CONTACT FRANCES OR SHELLEY AT THE RECEPTIONIST\nDESK IN THE MAIN LOBBY.\n\nFRANCES",
+        "label": {
+            "Spam": "Yes",
+            "Subject": "THE FLOWERMAN",
+            "Sender": "BERT::FRANCES",
+            "send_date": "1992-02-07",
+            "Time_Sensitive": "Yes",
+            "Start": "",
+            "End": "",
+            "Type": "N/A",
+            "Category": "Leisure",
+            "Format": "Online",
+            "Location": "Main Lobby",
+            "Action_Required": "No",
+            "Priority_Level": "Low"
+        }
+    },
+    {
+        "path": "./raw_emails/atariarchive13.txt",
+        "content": "From:\tGAWD::NATALIE      10-FEB-1992 15:48:13.75\nTo:\t@SYS$MAIL:JUNK\nCC:\t\nSubj:\tWANTED:  GAMEBOY\n\n\nI have a friend who is looking to buy a GameBoy, used.  If you know someone\nwho isn't using theirs anymore (maybe because they now have a Lynx or Game Gear)\nand wants to sell it, please call me at x1714 or x1794, or reply to this\naddress.  It's got to have Tetris, but I believe all GameBoys were sold with it.\n\nThanks,\nNatalie",
+        "label": {
+            "Spam": "Yes",
+            "Subject": "WANTED: GAMEBOY",
+            "Sender": "GAWD::NATALIE",
+            "send_date": "1992-02-07",
+            "Time_Sensitive": "No",
+            "Start": "",
+            "End": "",
+            "Type": "N/A",
+            "Category": "Leisure",
+            "Format": "Online",
+            "Location": "N/A",
+            "Action_Required": "No",
+            "Priority_Level": "Low"
+        }
+    },
+    {
+        "path": "./raw_emails/atariarchive14.txt",
+        "content": "From:\tBERT::STAN         11-FEB-1992 17:21:13.75\nTo:\t@SYS$MAIL:JUNK\nCC:\t\nSubj:\tValentine's Day\n\n\nYour Recreation Committee would like to remind you that this\nFriday, February 14 is Valentine's Day.  So, don't forget that\nspecial someone in your life.\n\nThe Recreation Committee will be providing candies at all \ncoffee stations and on Friday, cookies will be provided\nfor all employees!  Enjoy -- and \"HAPPY VALENTINE'S DAY\"!\n\nSANDY STAN",
+        "label": {
+            "Spam": "Yes",
+            "Subject": "Valentine's Day",
+            "Sender": "BERT::STAN",
+            "send_date": "1992-02-11",
+            "Time_Sensitive": "No",
+            "Start": "",
+            "End": "",
+            "Type": "N/A",
+            "Category": "Leisure",
+            "Format": "Online",
+            "Location": "N/A",
+            "Action_Required": "No",
+            "Priority_Level": "Low"
+        }
+    },
+    {
+        "path": "./raw_emails/atariarchive16.txt",
+        "content": "From:\tMIKE::HOBGOOD      18-FEB-1992 17:25:47.00\nTo:\t@SYS$MAIL:JUNK\nCC:\t\nSubj:\tSLOGAN REMINDER\n\n\n....IF YOU HAVE READ YOUR NEWSLETTER YOU SHOULD HAVE ALREADY VOTED;\nIF YOU HAVEN'T EVEN LOOKED AT IT THERE IS A BALLOT ON THE LAST PAGE\nTO VOTE FOR THE SLOGAN YOU PREFER.\nNOON TOMORROW, FEB 19TH, IS YOUR LAST CHANCE TO VOICE YOUR OPINION, SO..\n\nSPEAK NOW !!!",
+        "label": {
+            "Spam": "Yes",
+            "Subject": "SLOGAN REMINDER",
+            "Sender": "MIKE::HOBGOOD",
+            "send_date": "1992-02-18",
+            "Time_Sensitive": "Yes",
+            "Start": "1992-02-19 12:00",
+            "End": "",
+            "Type": "Reminder",
+            "Category": "Work",
+            "Format": "Online",
+            "Location": "N/A",
+            "Action_Required": "Yes",
+            "Priority_Level": "Low"
+        }
+    },
+    {
+        "path": "./raw_emails/atariarchive22.txt",
+        "content": "From:\tBERT::YAMAMOTO      9-MAR-1992 11:12:53.25\nTo:\t@SYS$MAIL:JUNK\nCC:\t\nSubj:\tWARRIOR BASKETBALL TICKETS FOR SALE\n\n\nI have two (2) tickets for Monday, March 30, 1992 to the Warrior\nBasketball game.  The Warriors will be playing Charles Barkley and\nthe Philadelphia 76er's. The cost for the two tickets is $46.00.\nThe seats are at the top of the middle section in one of the\ncorners.  If you would like to purchase these tickets, see me\nor my assistant, Jocelyn Kane (ext. 3779).\n\nBob Sheffield\n(ext. 5810)",
+        "label": {
+            "Spam": "Yes",
+            "Subject": "Warrior Basketball Tickets for Sale",
+            "Sender": "Bob Sheffield",
+            "send_date": "1992-03-09",
+            "Time_Sensitive": "No",
+            "Start": "",
+            "End": "",
+            "Type": "N/A",
+            "Category": "Leisure",
+            "Format": "In-person",
+            "Location": "Bob Sheffield's Office",
+            "Action_Required": "No",
+            "Priority_Level": "Low"
+        }
+    },
+    {
+        "path": "./raw_emails/atariarchive28.txt",
+        "content": "From:\tMIKE::BRYANT        8-APR-1992 10:57:17.39\nTo:\t@SYS$MAIL:JUNK\nCC:\t\nSubj:\tAn opening in the Atari golf tournament....\n\n\n    There is still time to get in on the annual Atari golf tournament!!!!\n  I'm enrolled but now can't make it due to unforseen circumstances.  If\n  you'd like my spot please call x 3925 ASAP.  Are there any interested \n  parties?  Thanks.\n\n\t\t\tRob",
+        "label": {
+            "Spam": "Yes",
+            "Subject": "An opening in the Atari golf tournament....",
+            "Sender": "MIKE::BRYANT",
+            "send_date": "1992-04-08",
+            "Time_Sensitive": "No",
+            "Start": "",
+            "End": "",
+            "Type": "Reminder",
+            "Category": "Leisure",
+            "Format": "In-person",
+            "Location": "Atari golf tournament",
+            "Action_Required": "Yes",
+            "Priority_Level": "High"
+        }
+    }
+]
