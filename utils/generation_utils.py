@@ -33,7 +33,7 @@ from utils.gpt_utils import gpt_completion
 
 def label_to_prompt(entry):
     email_info = f"""
-    You will write this email about {entry['Category']} as {entry['Sender']}. \
+    You will write this email about {entry['Category']} as {entry['Sender']}, and was sent on {entry['send_date']}\
     The subject of the email is: "{entry['Subject']}"; \
     Is this email time-sensitive? {entry['Time_Sensitive']}; \
     (Don't mention time-sensitivity explicitly); \
